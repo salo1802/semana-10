@@ -1,0 +1,77 @@
+#titulo{
+    display:  flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+}
+#botonesL{
+    position:absolute;
+    top:0;
+    right:0;
+    display:  flex;
+    flex-direction: column;
+    width: 25%;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto
+}
+#form{
+    display:  flex;
+    flex-direction: column;
+    width: 100%;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+}
+
+#vote{
+    display:  flex;
+    flex-direction: column;
+    width: 100%;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+}
+
+#botonesL *{
+    margin: 5px;
+    background-color: darkblue;
+color: aliceblue;
+padding: 15px 32px;
+font-size: 16px;
+}
+#form * {
+    margin: 5px 16px 5px 10px;
+    padding: 15px 32px;
+    font-size: large;
+}
+
+#vote * {
+    margin: 5px 16px 5px 10px;
+    padding: 15px 32px;
+    font-size: large;
+}
+
+
+#candidatos{
+
+margin: 30px 5px 5px 5px;
+}
+#registro{
+    background-color: darkblue;
+    color: aliceblue;
+    }
+ #votar{
+        background-color: darkblue;
+        color: aliceblue;
+        }
+#titulo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#instructions{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#vote4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 30px 5px 5px 5px;
+}

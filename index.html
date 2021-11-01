@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 10</title>
+    <link rel="stylesheet" href="CSS\index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
+
+</head>
+<body>
+
+  <div id = "titulo">
+    <h1 id = "tittle">LAPSUS NAPOLEÓN FRANCO</h1>
+</div>
+
+<div id = "botonesL">
+    <button id ="candidatos" >Ver Candidatos</button>
+    <button id ="votaciones" >Ver Votaciones</button>
+</div>
+
+<div id = "form">
+    <h3 id = "instructions"> Regístre el candidato para la encuesta </h3>
+    <input id = "id" placeholder="ID" type="number">
+    <input id = "nombre" placeholder="Nombre" type="text">
+    <button id ="registro" >Registrar</button>
+</div>
+<div id = "vote">
+    <h2 id ="vote4"> Vota por el candidato usando su ID</h2>
+    <input id = "idCandidato" placeholder="ID" type="number">
+    <button id ="votar" >Votar</button>
+</div>
+
+    
+</body>
+
+<script>
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyDvr5AZEdnbRmTQuKvph5cIeO1o662mTQ8",
+      authDomain: "ecosistemas-de-apps-2de1b.firebaseapp.com",
+      databaseURL: "https://ecosistemas-de-apps-2de1b-default-rtdb.firebaseio.com",
+      projectId: "ecosistemas-de-apps-2de1b",
+      storageBucket: "ecosistemas-de-apps-2de1b.appspot.com",
+      messagingSenderId: "131410176852",
+      appId: "1:131410176852:web:c2d43a49b8d997a853b6c1",
+      measurementId: "G-1QX8HCNEN8"
+    };
+  
+    // Initialize Firebase
+   //const app = initializeApp(firebaseConfig);
+    firebase.initializeApp(firebaseConfig);
+
+   // var db = firebase.firestore();
+
+
+    /*
+    db.collection("users").add({
+      first:"salo popo",
+      last:"ortiz",
+      born:1815
+    })
+    .then(function(docRef){
+      console.log("document writen id", docRef.id);
+    })
+    .catch(function(error){
+      console.log("fonucking error", error);
+    });*/
+
+    
+    
+    
+   /* const analytics = getAnalytics(app);
+    const db = firebase.firestore();*/
+  </script>
+<script src = "src/index.js"></script>
+</html>
